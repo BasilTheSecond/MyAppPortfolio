@@ -1,0 +1,32 @@
+1) Connect to Nexus 5 over wifi
+
+- Connect a device over usb 
+NOTE: This doesn't even need to be the acutal device that will be used, and doesn't need to remain connected
+
+- From windows command line terminal type:
+adb tcpip 5555
+
+- (Optionally) disconnect device from usb and type:
+adb connect 192.168.1.13
+adb devices
+List of devices attached
+192.168.1.13:5555       device
+
+NOTE: You can still use usb to connect to device
+adb devices
+List of devices attached
+192.168.1.13:5555       device
+03b69068f0b4f67f        device
+
+The second device is over usb
+
+2) Disable connection of Nexus 5 over wifi
+NOTE: usb connection remains active even when connection over wifi is enabled
+even though adb help suggests that a device can be connected over usb or tcpip
+
+- Connect a device over usb
+
+- From windows command line terminal type:
+adb usb
+
+
