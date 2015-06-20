@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="m">#0000</color>
+    <color name="main_menu_title">#000000</color>
+    <color name="spotify_streamer_launcher_text">#000000</color>
+    <color name="spotify_streamer_launcher_background">#F08C35</color>
+    <color name="scores_app_launcher_text">#000000</color>
+    <color name="scores_app_launcher_background">#F08C35</color>
+    <color name="library_app_launcher_text">#000000</color>
+    <color name="library_app_launcher_background">#F08C35</color>
+    <color name="build_it_bigger_launcher_text">#000000</color>
+    <color name="build_it_bigger_launcher_background">#F08C35</color>
+    <color name="xyz_reader_launcher_text">#000000</color>
+    <color name="xyz_reader_launcher_background">#F08C35</color>
+    <color name="capstone_my_own_app_launcher_text">#FFFFFF</color>
+    <color name="capstone_my_own_app_launcher_background">#800000</color>
 </resources>

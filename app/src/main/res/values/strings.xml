@@ -3,7 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="main_menu_tilte">"My Nano Degree Apps!</string>
+    <string name="main_menu_title">"My Nano Degree Apps!</string>
     <string name="spotify_streamer_launcher">"SPOTIFY STREAMER"</string>
     <string name="scores_app_launcher">"SCORES APP"</string>
     <string name="library_app_launcher">"LIBRARY APP"</string>
