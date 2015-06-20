@@ -38,7 +38,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void sendMessageFromButton(View view) {
+    public void onLaunchSpotifyStreamer(View view) {
         Context context = getApplicationContext();
         CharSequence text = "This button will launch Spotify Streamer app!";
         int duration = Toast.LENGTH_SHORT;
@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
         toast.show();
     }
 
-    public void sendMessageFromButton2(View view) {
+    public void onLaunchScoresApp(View view) {
         Context context = getApplicationContext();
         CharSequence text = "This button will launch Scores app!";
         int duration = Toast.LENGTH_SHORT;
@@ -54,7 +54,7 @@ public class MainActivity extends ActionBarActivity {
         toast.show();
     }
 
-    public void sendMessageFromButton3(View view) {
+    public void onLaunchLibraryApp(View view) {
         Context context = getApplicationContext();
         CharSequence text = "This button will launch Library app!";
         int duration = Toast.LENGTH_SHORT;
@@ -62,7 +62,7 @@ public class MainActivity extends ActionBarActivity {
         toast.show();
     }
 
-    public void sendMessageFromButton4(View view) {
+    public void onLaunchBuidItBigger(View view) {
         Context context = getApplicationContext();
         CharSequence text = "This button will launch Build It Bigger app!";
         int duration = Toast.LENGTH_SHORT;
@@ -70,7 +70,7 @@ public class MainActivity extends ActionBarActivity {
         toast.show();
     }
 
-    public void sendMessageFromButton5(View view) {
+    public void onLaunchXyzReader(View view) {
         Context context = getApplicationContext();
         CharSequence text = "This button will launch XYZ Reader app!";
         int duration = Toast.LENGTH_SHORT;
@@ -78,7 +78,7 @@ public class MainActivity extends ActionBarActivity {
         toast.show();
     }
 
-    public void sendMessageFromButton6(View view) {
+    public void onLaunchCapstoneMyOwnApp(View view) {
         Context context = getApplicationContext();
         CharSequence text = "This button will launch my capstone app!";
         int duration = Toast.LENGTH_SHORT;
