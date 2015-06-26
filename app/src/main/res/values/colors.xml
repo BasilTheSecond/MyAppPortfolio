@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="main_menu_title">#000000</color>
+    <color name="normal_app_launcher_text">#000000</color>
+    <color name="normal_app_launcher_background">#F08C35</color>
+    <color name="capstone_app_launcher_text">#FFFFFF</color>
+    <color name="capstone_app_launcher_background">#800000</color>
     <color name="spotify_streamer_launcher_text">#000000</color>
     <color name="spotify_streamer_launcher_background">#F08C35</color>
     <color name="scores_app_launcher_text">#000000</color>

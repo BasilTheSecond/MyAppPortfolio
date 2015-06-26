@@ -21,16 +21,10 @@
         android:textColor="@color/main_menu_title" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStyleNormalAppLauncher"
         android:text="@string/spotify_streamer_launcher"
         android:id="@+id/spotifyStreamerLauncher"
-        android:layout_marginTop="27dp"
         android:layout_below="@+id/mainMenuTitle"
-        android:textColor="@color/spotify_streamer_launcher_text"
-        android:background="@color/spotify_streamer_launcher_background"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:layout_alignLeft="@+id/scoresAppLauncher"
         android:layout_alignStart="@+id/scoresAppLauncher"
         android:layout_alignRight="@+id/scoresAppLauncher"
@@ -38,16 +32,10 @@
         android:onClick="onLaunchSpotifyStreamer"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStyleNormalAppLauncher"
         android:text="@string/scores_app_launcher"
         android:id="@+id/scoresAppLauncher"
-        android:textColor="@color/scores_app_launcher_text"
-        android:background="@color/scores_app_launcher_background"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:layout_below="@+id/spotifyStreamerLauncher"
-        android:layout_marginTop="10dp"
         android:layout_alignLeft="@+id/libraryAppLauncher"
         android:layout_alignStart="@+id/libraryAppLauncher"
         android:layout_alignRight="@+id/libraryAppLauncher"
@@ -55,16 +43,10 @@
         android:onClick="onLaunchScoresApp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStyleNormalAppLauncher"
         android:text="@string/library_app_launcher"
         android:id="@+id/libraryAppLauncher"
-        android:textColor="@color/library_app_launcher_text"
-        android:background="@color/library_app_launcher_background"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:layout_below="@+id/scoresAppLauncher"
-        android:layout_marginTop="10dp"
         android:layout_alignLeft="@+id/buidItBiggerLauncher"
         android:layout_alignStart="@+id/buidItBiggerLauncher"
         android:layout_alignRight="@+id/buidItBiggerLauncher"
@@ -72,15 +54,9 @@
         android:onClick="onLaunchLibraryApp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStyleNormalAppLauncher"
         android:text="@string/build_it_bigger_launcher"
         android:id="@+id/buidItBiggerLauncher"
-        android:textColor="@color/build_it_bigger_launcher_text"
-        android:background="@color/build_it_bigger_launcher_background"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:layout_marginTop="10dp"
         android:layout_below="@+id/libraryAppLauncher"
         android:layout_alignLeft="@+id/xyzReaderLauncher"
         android:layout_alignStart="@+id/xyzReaderLauncher"
@@ -89,16 +65,10 @@
         android:onClick="onLaunchBuidItBigger" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStyleNormalAppLauncher"
         android:text="@string/xyz_reader_launcher"
         android:id="@+id/xyzReaderLauncher"
-        android:textColor="@color/xyz_reader_launcher_text"
-        android:background="@color/xyz_reader_launcher_background"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:layout_below="@+id/buidItBiggerLauncher"
-        android:layout_marginTop="10dp"
         android:layout_alignLeft="@+id/capstoneMyOwnAppLauncher"
         android:layout_alignStart="@+id/capstoneMyOwnAppLauncher"
         android:layout_alignRight="@+id/capstoneMyOwnAppLauncher"
@@ -106,16 +76,10 @@
         android:onClick="onLaunchXyzReader" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStyleCapstoneAppLauncher"
         android:text="@string/capstone_my_own_app_launcher"
         android:id="@+id/capstoneMyOwnAppLauncher"
-        android:textColor="@color/capstone_my_own_app_launcher_text"
-        android:background="@color/capstone_my_own_app_launcher_background"
-        android:paddingLeft="5dp"
-        android:paddingRight="10dp"
         android:layout_below="@+id/xyzReaderLauncher"
-        android:layout_marginTop="10dp"
         android:layout_alignRight="@+id/mainMenuTitle"
         android:layout_alignEnd="@+id/mainMenuTitle"
         android:layout_alignLeft="@+id/mainMenuTitle"

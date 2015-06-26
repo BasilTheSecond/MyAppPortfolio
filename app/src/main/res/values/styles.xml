@@ -4,5 +4,17 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-
+    <style name="ButtonStyleNormalAppLauncher">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">27dp</item>
+        <item name="android:textColor">@color/normal_app_launcher_text</item>
+        <item name="android:background">@color/normal_app_launcher_background</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="ButtonStyleCapstoneAppLauncher" parent="@style/ButtonStyleNormalAppLauncher">
+        <item name="android:textColor">@color/capstone_app_launcher_text</item>
+        <item name="android:background">@color/capstone_app_launcher_background</item>
+    </style>
 </resources>
